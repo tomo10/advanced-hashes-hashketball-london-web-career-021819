@@ -115,7 +115,7 @@ def big_shoe_rebounds
           max = player_data[:shoe]
           
           puts max
-          
+          binding.pry 
         end  
          
        
