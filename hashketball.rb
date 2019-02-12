@@ -70,11 +70,11 @@ def team_names
   
   game_hash.each do |location, team_data|
     
-    team_data[:team_name].each do |name|
-      array << name 
-      return array 
+    array << team_data[:team_name]
+       
+    return array 
       
-      end 
+     
   end 
 end
   
