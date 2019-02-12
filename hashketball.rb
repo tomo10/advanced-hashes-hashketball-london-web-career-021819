@@ -107,15 +107,15 @@ end
 
 def big_shoe_rebounds
   array = []
-  
+  max_shoe = 0
   game_hash.each do |location, team_data|
   
     team_data[:players].each do |player, player_data|
         array << player_data[:shoe]
          
-        max = array.max
+        if 
         puts max
-        puts player
+        if player_data[:shoe] == max
        
     end     
         
