@@ -114,8 +114,10 @@ def big_shoe_rebounds
         if player_data[:shoe] > max_shoe
           max_shoe = player_data[:shoe]
          
-          puts max_shoe
-        
+          if player_data[:shoe] == max_shoe
+            puts player_data[:rebounds]
+          
+          end
        end
     end 
   end
