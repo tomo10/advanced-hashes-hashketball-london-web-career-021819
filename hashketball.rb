@@ -68,14 +68,12 @@ end
 def team_names
   array = []
   
-  game_hash.each do |location, team_data|
+  game_hash.each do |location|
     
-    array << team_data[:team_name]
+    array << location[:team_name]
        
-    return array 
-      
-     
-  end 
+  
+  end
 end
   
 
