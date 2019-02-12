@@ -72,11 +72,8 @@ def team_names
     
     array << team_data[:team_name]
     
-    puts "THOHOASMDSOMDSOMASDMODSAO"
-    
-    return array    
-  
-  end
+    end
+  array
 end
   
 
