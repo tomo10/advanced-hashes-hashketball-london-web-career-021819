@@ -111,14 +111,9 @@ def big_shoe_rebounds
   game_hash.each do |location, team_data|
   
     team_data[:players].each do |player, player_data|
-        puts array << player_data[:shoe]
+        array << player_data[:shoe]
         
-        if player_data[:shoe] > max
-          max = player_data[:shoe]
-          
-          puts max
-          
-        end  
+        puts array  
          
        
     end
