@@ -86,7 +86,7 @@ def player_numbers(name)
         
         array << player_data[:number]
     
-        return array
+        
       end
     end
   end
