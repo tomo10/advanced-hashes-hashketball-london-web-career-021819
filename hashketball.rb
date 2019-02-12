@@ -92,7 +92,20 @@ def player_numbers(name)
   array
 end
 
-def player_stats
+def player_stats(name)
+  
+  game_hash.each do |location, team_data|
+  
+    team_data[:players].each do |player, player_data|
+      if name == player
+        return player_data
+
+      end
+    end
+  end
+end
+
+
   
 
 
