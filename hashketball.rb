@@ -114,6 +114,7 @@ def big_shoe_rebounds
         array << player_data[:shoe]
     end     
         max = array.max
+        puts max 
         if player[:shoe] == max
           return player[:rebounds]  
          
