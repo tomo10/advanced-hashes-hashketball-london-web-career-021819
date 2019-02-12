@@ -71,12 +71,12 @@ def team_names
   game_hash.each do |location, team_data|
     
     array << team_data[:team_name]
-    
     end
   array
 end
 
 def player_numbers(name)
+  
   
   
 end
