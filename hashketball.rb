@@ -70,10 +70,11 @@ def team_names
   
   game_hash.each do |location, team_data|
     
-    puts team_data[:team_name]
+    array << team_data[:team_name]
+    
     puts "THOHOASMDSOMDSOMASDMODSAO"
     
-       
+    return array    
   
   end
 end
