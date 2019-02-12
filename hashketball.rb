@@ -80,8 +80,15 @@ def player_numbers(name)
   
   game_hash.each do |location, team_data|
     
+    if team_data[:team_name] == name
+      
+      team_data[:players].each do |player, player_data|
+        
+        array << player_data[:number]
     
-    
+        return array
+      end
+    end
   end
 end
   
