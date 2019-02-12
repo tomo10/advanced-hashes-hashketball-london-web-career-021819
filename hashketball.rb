@@ -73,7 +73,7 @@ def team_names
     team_data[:team_name].each do |name|
       array << name 
       return array 
-      binding.pry 
+      
       end 
   end 
 end
