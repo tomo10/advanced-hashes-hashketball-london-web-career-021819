@@ -68,9 +68,9 @@ end
 def team_names
   array = []
   
-  game_hash.each do |location|
+  game_hash.each do |location, team_data|
     
-    puts location[:team_name]
+    puts team_data[:team_name]
     puts "THOHOASMDSOMDSOMASDMODSAO"
     
        
