@@ -73,7 +73,7 @@ def team_names
     puts location[:team_name]
     puts "THOHOASMDSOMDSOMASDMODSAO"
     
-    return array   
+       
   
   end
 end
