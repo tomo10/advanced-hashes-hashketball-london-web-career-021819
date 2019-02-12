@@ -70,7 +70,7 @@ def team_names
   
   game_hash.each do |location|
     
-    array << location[:team_name]
+    puts location[:team_name]
     
     return array   
   
