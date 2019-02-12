@@ -118,7 +118,7 @@ def big_shoe_rebounds
        
     end
   end
-  puts array 
+  puts array.max 
 end
 
 
